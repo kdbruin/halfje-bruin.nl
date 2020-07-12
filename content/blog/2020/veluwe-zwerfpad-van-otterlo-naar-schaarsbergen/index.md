@@ -9,7 +9,6 @@ categories:
 tags:
     - "veluwe zwerfpad"
     - "np hoge veluwe"
-draft: true
 ---
 
 Bij de bezoekjes aan de Hoge Veluwe is het meestal de noordelijke kant van het park waar ik dan terecht kom. Vandaag eindelijk ook een deel van de zuidelijke kant van het park bezocht door het lopen van een deel van het [Veluwe Zwerfpad](https://nivon.nl/wandelpaden/veluwe-zwerfpad/). Etappe 13 loopt tussen Arnhem en Otterlo maar ik heb me beperkt tot het deel binnen het park.

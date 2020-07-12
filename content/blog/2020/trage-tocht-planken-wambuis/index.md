@@ -10,7 +10,6 @@ tags:
     - "planken wambuis"
     - "natuurmonumenten"
 featured: "20200527-planken-wambuis-0038-1.jpg"
-draft: true
 ---
 
 Vandaag een wandeling gedaan welke al langere tijd op de planning stond: de [Trage Tocht Planken Wambuis](https://www.wandelzoekpagina.nl/wandeling/trage-tocht-planken-wambuis/17467/), een wandeling van 14 kilometer door het natuurgebied Planken Wambuis. Lekker vroeg op pad en hoewel later dan ik van plan was sta ik rond 8 uur bij het alternatieve beginpunt van de wandeling. Het is nog niet al te warm en hier en daar is het nog een beetje heiig.
