@@ -3,14 +3,14 @@
 #
 
 baseurl                 = "http://localhost:1313/"
-DefaultContentLanguage  = "en"
+DefaultContentLanguage  = "nl"
 title                   = "Halfje-Bruin"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 5
 disqusShortname         = ""
 googleAnalytics         = ""
 pluralizeListTitles     = false
-disableLanguages        = [""]
+disableLanguages        = ["en"]
 
 [outputs]
   home                  = ["html", "json"]
@@ -27,7 +27,7 @@ disableLanguages        = [""]
   socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
 
   [params.meta]
-    description         = "The personal website of Halfje-Bruin, aka Kees de Bruin. Powered by Hugo.io."
+    description         = "De persoonlijke website van Halfje-Bruin, aka Kees de Bruin. Mogelijk gemaakt door Hugo.io."
     author              = "Kees de Bruin"
     favicon             = false
     svg                 = true
@@ -44,7 +44,7 @@ disableLanguages        = [""]
 
   [params.intro]
     header                = "Halfje-Bruin"
-    paragraph             = "A collection of stuff I find interesting and want the whole world to know about."
+    paragraph             = "Een collectie interessante ditjes en datjes."
     rssIntro              = true
     socialIntro           = true
     hideWhenSingleColumn  = false
@@ -57,8 +57,8 @@ disableLanguages        = [""]
       alt                 = "Halfje-Bruin"
 
   [params.sidebar]
-    about               = "This theme was developed for Hugo static site generator."
-    postAmount          = 5
+    about               = "Amateur fotograaf, korfballer en een liefhebber van lekker eten."
+    postAmount          = 3
     categories          = true
     categoriesByCount   = true
 
@@ -122,156 +122,45 @@ disableLanguages        = [""]
     LanguageName        = "English"
     weight              = 1
 
-  [Languages.fr]
-    LanguageCode        = "fr"
-    LanguageName        = "Français"
-    title               = "Hugo Future Imperfect Slim en français"
-    description         = "Un thème par HTML5 UP, porté par Julio Pescador. Simplifié et amélioré par Patrick Collins. Multilingue par StatnMap. Propulsé par Hugo."
+  [Languages.nl]
+    LanguageCode        = "nl"
+    LanguageName        = "Nederlands"
     weight              = 2
 
-    [[Languages.fr.menu.main]]
-      name              = "Accueil"
-      identifier        = "home"
-      url               = "/"
-      pre               = "<i class='fas fa-home'></i>"
-      weight            = 1
-
-    [[Languages.fr.menu.main]]
-      name              = "About"
-      identifier        = "about"
-      url               = "/about/"
-      pre               = "<i class='far fa-id-card'></i>"
-      weight            = 2
-
-    [[Languages.fr.menu.main]]
-      name              = "Blog"
-      identifier        = "blog"
-      url               = "/blog/"
-      pre               = "<i class='far fa-newspaper'></i>"
-      weight            = 3
-
-    [[Languages.fr.menu.main]]
-      name              = "Catégories"
-      identifier        = "categories"
-      url               = "/categories/"
-      pre               = "<i class='fas fa-sitemap'></i>"
-      weight            = 5
-
-    [[Languages.fr.menu.main]]
-      name              = "Contact"
-      identifier        = "contact"
-      url               = "/contact/"
-      pre               = "<i class='far fa-envelope'></i>"
-      weight            = 6
-
-  [Languages.pl]
-    LanguageCode        = "pl"
-    LanguageName        = "Polski"
-    title               = "Hugo Future Imperfect Slim po polsku"
-    description         = "Motyw HTML5 UP, przeniesiony przez Julio Pescadora i wzbogacony przez Patricka Collinsa. Wielojęzyczny przez StatnMap. Zasilany przez Hugo."
-    weight              = 2
-
-    [[Languages.pl.menu.main]]
+    [[Languages.nl.menu.main]]
       name              = "Home"
       identifier        = "home"
       url               = "/"
       pre               = "<i class='fas fa-home'></i>"
       weight            = 1
 
-    [[Languages.pl.menu.main]]
-      name              = "O mnie"
+    [[Languages.nl.menu.main]]
+      name              = "Over Mij"
       identifier        = "about"
       url               = "/about/"
       pre               = "<i class='far fa-id-card'></i>"
       weight            = 2
 
-    [[Languages.pl.menu.main]]
+    [[Languages.nl.menu.main]]
       name              = "Blog"
       identifier        = "blog"
       url               = "/blog/"
       pre               = "<i class='far fa-newspaper'></i>"
       weight            = 3
 
-    [[Languages.pl.menu.main]]
-      name              = "Kategorie"
+    [[Languages.nl.menu.main]]
+      name              = "Categorieën"
       identifier        = "categories"
       url               = "/categories/"
       pre               = "<i class='fas fa-sitemap'></i>"
       weight            = 5
 
-    [[Languages.pl.menu.main]]
-      name              = "Kontakt"
+    [[Languages.nl.menu.main]]
+      name              = "Contact"
       identifier        = "contact"
       url               = "/contact/"
       pre               = "<i class='far fa-envelope'></i>"
       weight            = 6
-
-  [Languages.pt]
-    LanguageCode        = "pt"
-    LanguageName        = "Português"
-    title               = "Hugo Future Imperfect Slim em português"
-    description         = "Um tema do HTML5 UP, portado por Julio Pescadora e reduzido por Patrick Collins. Multilíngue por StatnMap. Feito com Hugo."
-    weight              = 4
-
-    [[Languages.pt.menu.main]]
-      name              = "Início"
-      identifier        = "home"
-      url               = "/"
-      pre               = "<i class='fas fa-home'></i>"
-      weight            = 1
-
-    [[Languages.pt.menu.main]]
-      name              = "Sobre"
-      identifier        = "about"
-      url               = "/about/"
-      pre               = "<i class='far fa-id-card'></i>"
-      weight            = 2
-
-    [[Languages.pt.menu.main]]
-      name              = "Blog"
-      identifier        = "blog"
-      url               = "/blog/"
-      pre               = "<i class='far fa-newspaper'></i>"
-      weight            = 3
-
-    [[Languages.pt.menu.main]]
-      name              = "Categorias"
-      identifier        = "categories"
-      url               = "/categories/"
-      pre               = "<i class='fas fa-sitemap'></i>"
-      weight            = 5
-
-    [[Languages.pt.menu.main]]
-      name              = "Contato"
-      identifier        = "contact"
-      url               = "/contact/"
-      pre               = "<i class='far fa-envelope'></i>"
-      weight            = 6
-
-  [Languages.de]
-    LanguageCode        = "de"
-    LanguageName        = "Deutsche"
-    weight              = 5
-
-  [Languages.es]
-    LanguageCode        = "es"
-    LanguageName        = "Española"
-    weight              = 6
-
-  [Languages.zh-CN]
-    LanguageCode        = "zh-CN"
-    LanguageName        = "中文"
-    weight              = 7
-
-  [Languages.zh-TW]
-    LanguageCode        = "zh-TW"
-    LanguageName        = "中文"
-    weight              = 8
-
-  [Languages.ja]
-    LanguageCode        = "ja"
-    LanguageName        = "日本語"
-    weight              = 9
 
 [social]
   # Coding Communities

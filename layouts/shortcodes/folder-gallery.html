@@ -1,6 +1,6 @@
 <div class="gallery">
-    {{ $path := print "content/" .Page.Dir (.Get "src") }}
-    {{ $url  := print .Page.URL (.Get "src") }}
+    {{ $path := print "content/" .Page.File.Dir (.Get "src") }}
+    {{ $url  := print .Page.Permalink (.Get "src") }}
     {{ range (readDir $path) }}
     {{ if eq (path.Ext .Name) ".jpg" }}
     {{ $src := print $url "/" .Name }}
