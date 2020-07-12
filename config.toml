@@ -15,6 +15,9 @@ disableLanguages        = ["en"]
 [outputs]
   home                  = ["html", "json"]
 
+[permalinks]
+  blog                  = "/blog/:year/:month/:title/"
+
 [params]
   enableCDN             = false
   cssFiles              = ["default"]
