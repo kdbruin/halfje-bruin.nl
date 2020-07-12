@@ -5,6 +5,10 @@
   and follow the formatting and style given.
 */
 
+#site-intro a img.circle {
+  height: 128px;
+}
+
 div.gallery {
   display: flex;
   flex-wrap: wrap;
