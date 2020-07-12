@@ -1,0 +1,42 @@
+/*
+  This css file is for individual users to restyle items for their personal site,
+  or for the implementation of features specifically for their site. Anything that
+  is an official part of the theme (ex. Pull Requests) should be included in main.css
+  and follow the formatting and style given.
+*/
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.gallery a {
+  flex-grow: 1;
+  object-fit: cover;
+  margin: 2px;
+  display: flex;
+  overflow: hidden;
+}
+
+div.gallery a img {
+  height: 200px;
+  object-fit: cover;
+  flex-grow: 1;
+/*
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  -moz-transition: -moz-transform 0.2s ease-out;
+  -ms-transition: -ms-transform 0.2s ease-out;
+  -o-transition: -ms-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+*/
+}
+
+div.gallery a img:hover {
+/*
+  -webkit-transform: scale(1.10);
+  -moz-transform: scale(1.10);
+  -ms-transform: scale(1.10);
+  -o-transform: scale(1.10);
+  transform: scale(1.10);
+*/
+}

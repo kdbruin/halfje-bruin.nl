@@ -1,0 +1,12 @@
+<div class="gallery">
+    {{ $path := print "content/" .Page.Dir (.Get "src") }}
+    {{ $url  := print .Page.URL (.Get "src") }}
+    {{ range (readDir $path) }}
+    {{ if eq (path.Ext .Name) ".jpg" }}
+    {{ $src := print $url "/" .Name }}
+    <a data-fancybox="gallery" href="{{ $src }}">
+        <img src="{{ $src }}"> <br />
+    </a>
+    {{ end }}
+    {{ end }}
+</div>

@@ -1,0 +1,12 @@
+{{ $permalink := .RelPermalink }}
+{{ if .Params.images }}
+    <a href="{{ .RelPermalink }}" class="image featured">
+        {{ range first 1 .Params.images }}
+        <img src="{{ (path.Join $permalink .) | absURL }}" alt="">
+        {{ end }}
+    </a>
+{{ else if .Params.featured }}
+    <a href="{{ .RelPermalink }}" class="image featured">
+        <img src="{{ (path.Join $permalink .Params.featured) | absURL }}" alt="{{ .Params.featuredalt }}">
+    </a>
+{{ end }}
