@@ -1,8 +1,7 @@
 #
-# Configuration settings
+# Common configuration settings for all environments
 #
 
-baseurl                 = "http://localhost:1313/"
 DefaultContentLanguage  = "nl"
 title                   = "Halfje-Bruin"
 theme                   = "hugo-future-imperfect-slim"

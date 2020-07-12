@@ -1,0 +1,15 @@
+# RSYNC excludes
+
+# common files
+- .DS_Store
+- .listing
+
+# development files
+- .env*
+- .git*
+- .project
+- composer.json
+- composer.lock
+
+# Google identification
+google031afd0dcbc13f26.html

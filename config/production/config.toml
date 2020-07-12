@@ -1,0 +1,6 @@
+#
+# Default configuration settings
+#
+
+baseURL                 = "https://www.halfje-bruin.nl/"
+buildDrafts             = false
