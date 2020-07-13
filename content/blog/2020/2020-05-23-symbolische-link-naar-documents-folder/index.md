@@ -16,9 +16,9 @@ Echter, bij een herstart van macOS wordt de symbolische link naar de Documents (
 
 Als eerste moet de link gelegd worden (let op dat de Documents folder leeg is!):
 
-sudo rm -rf ~/Documents
-ln -sf /Volumes/DataSSD/Documents ~/Documents
+    sudo rm -rf ~/Documents
+    ln -sf /Volumes/DataSSD/Documents ~/Documents
 
 Om ervoor te zorgen dat de symbolische link niet wordt verwijderd, open dan de hoe folder in Finder en selecteer de Documents folder. Kies vervolgens Get Info in het context menu. Zorg ervoor dat Locked is geselecteerd zoals te zien in onderstaande afbeelding.
 
-![](https://www.halfje-bruin.nl/app/uploads/2020/05/Screenshot-2020-05-23-at-09.07.00.png)
+{{< img src="img/Screenshot-2020-05-23-at-09.07.00.png" >}}
