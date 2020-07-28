@@ -8,7 +8,7 @@ REMOTE_USER=deb4664
 REMOTE_HOST=halfje-bruin.nl
 REMOTE_DIR=domains/${REMOTE_HOST}/public_html
 
-SSH_KEYFILE=${HOME}/.ssh/halfjebruin-ssh
+SSH_KEYFILE=${HOME}/.ssh/halfje-bruin-ssh
 LOCAL_DIR=./public/
 LOG_DIR=./logs
 EXCLUDES=.rsync-excludes
