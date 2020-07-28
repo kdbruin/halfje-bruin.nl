@@ -3,12 +3,13 @@ author: "Kees de Bruin"
 title: "Veluwe Zwerfpad: van Otterlo naar Schaarsbergen"
 date: 2020-05-25
 description: "Struinen over de Hoge Veluwe"
-featured: "img/20200525-veluwe-zwerfpad-13-0042-1.jpg"
 categories:
     - "wandelen"
 tags:
     - "veluwe zwerfpad"
     - "np hoge veluwe"
+images:
+-   src: "img/20200525-veluwe-zwerfpad-13-0042-1.jpg"
 ---
 
 Bij de bezoekjes aan de Hoge Veluwe is het meestal de noordelijke kant van het park waar ik dan terecht kom. Vandaag eindelijk ook een deel van de zuidelijke kant van het park bezocht door het lopen van een deel van het [Veluwe Zwerfpad](https://nivon.nl/wandelpaden/veluwe-zwerfpad/). Etappe 13 loopt tussen Arnhem en Otterlo maar ik heb me beperkt tot het deel binnen het park.

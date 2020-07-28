@@ -1,74 +1,8 @@
-[date_format]
-  other = "2 January 2006"
-[postreadingtime]
-  one = "1 minuut leestijd"
-  other = "{{ .Count }} minuten leestijd"
-[recent_posts]
-  other = "Recente berichten"
-[see_more]
-  other = "Toon meer"
-[read_more]
-  other = "Lees verder"
 [categories]
   other = "Categorieën"
-[category]
-  other = "Categorie"
-[tags]
-  other = "Tags"
-[tag]
-  other = "Tag"
-[share_post]
-  other = "Deel dit bericht"
-[check_out]
-  other = "Bekijk ook eens dit bericht van"
-[about]
-  other = "Over Mij"
-[learn_more]
-  other = "Meer Informatie"
-[repliestext]
-  one = "Antwoord gewoonlijk binnen 1 uur."
-  other = "Antwoord gewoonlijk binnen {{ .Count }} uur."
-[submit]
-  other = "Submit"
-[404_pagenotfound]
-  other = "Page Not Found"
-[404_sorry]
-  other = "Sorry, but the page you were trying to view does not exist."
-[404_goback]
-  other = "Go Back"
-[blog]
-  other = "Blog"
-[contact]
-  other = "Contact"
-[next_page]
-  other = "Volgende Pagina"
-[previous_page]
-  other = "Vorige Pagina"
-[attribution]
-  other = "Thema: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='{{ .Site.Hugo.Version }}' target='_blank' rel='noopener'>Hugo</a>"
-[comments]
-  other = "Reacties"
-[say_sth]
-  other = "Vertel iets"
-[name]
-  other = "Je naam (Verplicht)"
-[email]
-  other = "Je email adres (Verplicht voor Gravatar)"
-[website]
-  other = "Je website"
-[body]
-  other = "Je bericht. Je kunt gebruik maken van Markdown (Google 'Markdown Cheat Sheet')."
-[no_comment]
-  other = "Geen reacties."
-[reply]
-  other = "Antwoord"
-[btn_reset]
-  other = "Reset"
-[btn_submitted]
-  other = "Submitted"
-[btn_sumbit]
-  other = "Submit"
-[error_msg]
-  other = "Sorry, there was an error with your submission.  Please make sure all required fields have been completed and try again."
-[success_msg]
-  other = "Thanks for your comment! It will be shown on the site once it has been approved."
+
+[series]
+  other = "Blog Series"
+
+[part_of_series]
+  other = "Onderdeel van de serie <a class=\"series-title\" href=\"{{ .url }}\">{{ .name }}</a>"

@@ -1,0 +1,37 @@
+{{- if .Params.series -}}
+    {{- $series_name := index .Params.series 0 -}}
+    {{- $series_slug := urlize $series_name | lower -}}
+    {{- $post_permalink := .Permalink -}}
+    {{- $.Scratch.Add "cur_page_num" 1 -}}
+    {{- $.Scratch.Set "series_pages" (.Site.Taxonomies.series.Get $series_slug) -}}
+    {{- $.Scratch.Set "total_page_num" (len ($.Scratch.Get "series_pages")) -}}
+    {{- range sort ($.Scratch.Get "series_pages") "Date" -}}
+        {{- if gt $.Date.Unix .Date.Unix -}}
+            {{- $.Scratch.Add "cur_page_num" 1 -}}
+            {{- $.Scratch.Set "prev_link" .Permalink -}}
+            {{- $.Scratch.Set "prev_title" .Title -}}
+        {{- end -}}
+    {{- end -}}
+    {{- range ($.Scratch.Get "series_pages") -}}
+        {{- if lt $.Date.Unix .Date.Unix -}}
+            {{- $.Scratch.Set "next_link" .Permalink -}}
+            {{- $.Scratch.Set "next_title" .Title -}}
+        {{- end -}}
+    {{- end -}}
+    {{- if or ($.Scratch.Get "next_link") ($.Scratch.Get "prev_link") -}}
+    <div class="stats">
+        <ul class="series-navigation">
+            {{- if ($.Scratch.Get "prev_link") -}}
+            <li>
+                <a href="{{ $.Scratch.Get "prev_link" }}" class="left"><span>{{ $.Scratch.Get "prev_title" }}</span></a>
+            </li>
+            {{- end -}}
+            {{- if ($.Scratch.Get "next_link") -}}
+            <li>
+                <a href="{{ $.Scratch.Get "next_link" }}" class="right"><span>{{ $.Scratch.Get "next_title" }}</span></a>
+            </li>
+            {{- end -}}
+        </ul>
+    </div>
+    {{- end -}}
+{{- end -}}

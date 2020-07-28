@@ -3,7 +3,6 @@ author: "Kees de Bruin"
 title: "Symbolische link naar Documents folder"
 date: "2020-05-23"
 description: ""
-featured: ""
 categories:
     - "sysadmin"
 tags:

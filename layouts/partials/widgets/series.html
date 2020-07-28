@@ -1,0 +1,19 @@
+{{ if ne ($.Scratch.Get "showSeries") false }}
+{{ if isset .Site.Taxonomies "series" }}
+{{ if not (eq (len .Site.Taxonomies.series) 0) }}
+<section id="blog-series">
+    <header>
+        <h1><a href="{{ "series" | relLangURL }}">{{ i18n "series" }}</a></h1>
+    </header>
+    <ul>
+        {{ $.Scratch.Set "series" (cond .Site.Params.sidebar.seriesByCount .Site.Taxonomies.series.ByCount .Site.Taxonomies.series.Alphabetical) }}
+        {{ range $key, $value := $.Scratch.Get "series" }}
+        <li>
+            <a href="{{ printf "%s/%s" "series" $value.Name | urlize | relLangURL }}/">{{ $value.Name | humanize | title  }}<span class="count">{{ $value.Count }}</span></a>
+        </li>
+        {{ end }}
+    </ul>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

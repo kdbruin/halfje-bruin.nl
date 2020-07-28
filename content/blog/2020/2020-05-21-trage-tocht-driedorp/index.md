@@ -3,12 +3,13 @@ title: "Trage Tocht Driedorp"
 date: "2020-05-21"
 author: "Kees de Bruin"
 description: "Eeen wandeling rond buurtschap Driedorp"
-featured: "img/20200521-driedorp-0055-1.jpg"
 categories:
     - "wandelen"
 tags:
     - "trage tocht"
     - "driedorp"
+images:
+- src: "img/20200521-driedorp-0055-1.jpg"
 ---
 
 Het is Hemelvaartsdag en mooi weer dus tijd om de wandelschoenen aan te trekken. Op aanraden van Ron de [Trage Tocht Driedorp](https://www.wandelzoekpagina.nl/wandeling/trage-tocht-driedorp/13760/) gekozen en dat is een goede keuze gebleken. Vanwege de hoge temperatuur die wordt verwacht sta ik al rond 7 uur bij de start van de wandeling.

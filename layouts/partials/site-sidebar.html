@@ -1,0 +1,7 @@
+<section id="site-sidebar">
+    {{ $context := . }}
+    {{ range .Site.Params.sidebar.showWidgets }}
+        {{ $partial := print "widgets/" . ".html" }}
+        {{ partial $partial $context }}
+    {{ end }}
+</section>

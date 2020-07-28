@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <header>
+    <h1>{{ i18n .Data.Plural }}</h1>
+  </header>
+  {{ range .Data.Terms.Alphabetical }}
+    <h3><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h3>
+    <ul class="posts">
+      {{ range .Pages.ByDate }}
+      <li>
+        <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+  {{ $.Scratch.Set "showSeries" false }}
+{{ end }}

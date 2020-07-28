@@ -1,0 +1,8 @@
+<!--
+    Series shortcode
+
+    Usage: <series "series name">
+-->
+{{- $series_name := .Get 0 -}}
+{{- $series_slug := urlize $series_name | lower -}}
+<a href="{{ printf "%s/%s" "series" $series_slug | relLangURL }}" title={{ $series_name }}>{{ $series_name }}</a>
