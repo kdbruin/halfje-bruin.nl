@@ -1,8 +1,0 @@
-<figure {{ with .Get "class" }}class="{{.}}" {{ end }}>
-    {{.Inner}}
-    {{- with .Get "figcaption" -}}
-    <figcaption>
-        <p>{{.}}</p>
-    </figcaption>
-    {{- end -}}
-</figure>

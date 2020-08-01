@@ -1,0 +1,153 @@
+/*
+  User-specific styles overriding the default styles
+*/
+
+#site-intro {
+    a {
+        img.circle {
+            height: 128px;
+            width: 128px;
+        }
+    }
+}
+
+.post {
+    header {
+        .meta {
+            p.series {
+                line-height: 1.5em;
+                margin-top: .5em;
+  
+                a {
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+}
+
+.content {
+    > div, > p {
+        margin: 0 1em;
+    }
+
+    > figure {
+        margin: 1em 1em;
+    }
+
+    > img {
+        padding: 1em;
+    }
+}
+
+img {
+    &.responsive {
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+    }
+}
+
+figure {
+    box-shadow: none;
+    max-width: 100%;
+    padding: 0;
+
+    figcaption {
+        font-style: normal;
+
+        h4 {
+            letter-spacing: .15em;
+            text-transform: unset;
+        }
+    }
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  
+  
+   a {
+        flex-grow: 1;
+        object-fit: cover;
+        margin: 2px;
+        display: flex;
+        overflow: hidden;
+  
+        img {
+            height: 200px;
+            object-fit: cover;
+            flex-grow: 1;
+            // -webkit-transition: -webkit-transform 0.2s ease-out;
+            // -moz-transition: -moz-transform 0.2s ease-out;
+            // -ms-transition: -ms-transform 0.2s ease-out;
+            // -o-transition: -ms-transform 0.2s ease-out;
+            // transition: transform 0.2s ease-out;
+
+            &:hover {
+                // -webkit-transform: scale(1.10);
+                // -moz-transform: scale(1.10);
+                // -ms-transform: scale(1.10);
+                // -o-transform: scale(1.10);
+                // transform: scale(1.10);
+            }
+        }
+   }
+}
+
+#blog-series, #categories {
+    ul {
+        li {
+            font-size: .7em;
+
+            &:not(:last-child) {
+                padding-bottom: .75em;
+            }
+        }
+    }
+}
+
+ul.series-navigation {
+    li {
+        a.left, a.right {
+            border-bottom: none;
+        }
+    }
+}
+
+.series-navigation {
+    &::before {
+        content: "\f0c5";
+    }
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    margin: 1em 1em !important;
+
+    .column {
+        &.one {
+            flex: 100%;
+        }
+
+        &.two {
+            flex: 50%;
+        }
+
+        &.three {
+            flex: 33.33%;
+        }
+
+        &.four {
+            flex: 25%;
+        }
+    }
+
+    .column + .column {
+        margin-left: 1em;
+    }
+}
