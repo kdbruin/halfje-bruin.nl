@@ -3,11 +3,13 @@ title: "De Elspeetsche Heide"
 date: "2019-08-23"
 author: "Kees de Bruin"
 description: ""
-featured: ""
 categories:
-    - ""
+    - "wandelen"
 tags:
-    - ""
+    - "elspeetsche heide"
+    - "heide"
+images:
+-   src: "img/20190823-elspeetsche-heide-0035-1.jpg"
 ---
 
 Naar aanleiding van de vele mooie filmpjes over bloeiende heide toch ook maar eens het plan opgevat om dit op de foto te zetten. Vooraf een beetje plannen en uiteindelijk is de keuze gevallen op de Elspeetsche Heide en dan aan de kant van Vierhouten. En om mooi licht te hebben, moeten we toch rond zonsopkomst zijn en dat is rond half 7 's ochtends.
@@ -16,95 +18,29 @@ Dus vandaag vroeg uit de veren en rond kwart over 5 stap ik in de auto op weg na
 
 Rond kwart over 6 begint de lucht wat meer te verkleuren en wordt ook de laaghangende mist wat beter zichtbaar. Ik maak de eerste foto's en op het kleine schermpje lijken ze wat donker maar dat zie ik thuis verder wel.
 
-![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0007-1.jpg)
+{{< img src="img/20190823-elspeetsche-heide-0007-1.jpg" >}}
 
 Wel valt op dat er nu het lichter wordt, er toch niet zo veel heide staat als ik dacht. Maar ondanks dat is het wel een redelijk mooie zonsopkomst maar de lucht kleurt helaas niet echt door gebrek aan enige bewolking. Maar de camera is gewillig en ik kan een paar mooie foto's schieten.
 
-![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0077-1.jpg)
+{{< img src="img/20190823-elspeetsche-heide-0077-1.jpg" >}}
 
 Ik loop een beetje rond op zoek naar andere plekken en schiet nog wat meer foto's vanuit andere standpunten maar echt uitgestrekte heidevelden zijn hier helaas niet aanwezig.
 
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0092-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0103-1.jpg)
-    
+{{< columns >}}
+    {{< img column="two" src="img/20190823-elspeetsche-heide-0092-1.jpg" >}}
+    {{< img column="two" src="img/20190823-elspeetsche-heide-0103-1.jpg" >}}
+{{< /columns >}}
 
 Rond een uur of 7 zie ik een van de andere fotografen vertrekken en dat levert een heel mooi plaatje op. Daarna nog even naar een hoger uitzichtpunt en zie dan dat er in de omgeving hiervan niet zoveel aaneengesloten heide is. Daarvoor moet je blijkbaar meer naar het zuiden van het gebied. Dat is voor een volgende keer.
 
 Ik breng m'n statief terug naar de auto en rond een uur of 8 ga ik op pad voor de 9 kilometer lange wandeling over de Elspeetsche Heide. Het is een mooie wandeling met een lekker zonnetje en inderdaad zie je de hoeveelheid heide steeds meer toenemen.
 
-![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0155-1.jpg)
+{{< img src="img/20190823-elspeetsche-heide-0155-1.jpg" >}}
 
 Af en toe lekker ploeteren door het mulle zand geniet ik van de heerlijke rust om mij heen. Als je stil gaat staan, hoor je het gezoem van de vele bijen die de nectar van de heidebloesem verzamelen. Je ziet de vogels over de heide scheren op zoek naar insecten en in de verte zie ik ook nog een aantal herten nabij de bosrand.
 
-![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0169-1.jpg)
+{{< img src="img/20190823-elspeetsche-heide-0169-1.jpg" >}}
 
 Tegen half 11 ben ik weer terug bij de auto en de parkeerplaats staat dan al redelijk vol. Blijkbaar toch een populair plekje. Met een voldaan gevoel stap ik in de auto en rij weer terug naar huis.
 
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0002-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0007-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0017-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0022-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0026-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0035-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0040-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0058-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0060-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0067-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0077-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0092-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0094-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0102-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0103-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0111-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0116-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0128-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0137-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0147-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0151-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0155-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0160-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0161-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0168-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0169-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0173-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0174-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0176-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0180-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0183-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0184-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0187-1.jpg)
-    
-- ![](https://www.halfje-bruin.nl/app/uploads/2019/08/20190823-elspeetsche-heide-0192-1.jpg)
+{{< folder-gallery src="img" >}}
