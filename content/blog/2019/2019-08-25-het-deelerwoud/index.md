@@ -8,6 +8,8 @@ categories:
 tags:
     - "deelerwoud"
     - "heide"
+images:
+-   src: "img/20190824-deelerwoud-0084-1.jpg"
 ---
 
 Het Deelerwoud ligt tussen nationaal parken De Hoge Veluwe en de Veluwe Zoom in en heeft volgens de website van Natuurmonumenten ook een mooi heidegebied wat nu in bloei staat. Samen met Ron stappen we in de auto en gaan eind van de middag richting Deelen voor de wandeling. Eenmaal in Deelen parkeren we de auto bij het Deelerwoud en gaan we beginnen aan de wandeling van bijna 9 kilometer langs en over het heidegebied.
