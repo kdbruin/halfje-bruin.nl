@@ -12,7 +12,6 @@ tags:
     - "rondreis"
 images:
 - src: "img/20191028-japan-0266-2.jpg"
-draft: true
 ---
 
 Nu Teun getrouwd is moet ik op zoek naar een andere reismaat. Of alleen op vakantie gaan. Na wat speurwerk op het internet voor actieve vakanties houd ik een tweetal opties over: Tasmanië of Japan. Aangezien ik al op Tasmanië ben geweest valt de keuze op een cultuur- en wandelreis door Japan. Het is een groepsreis georganiseerd door SNP, een reisorganisatie waar ik nog geen ervaring mee heb maar ik hoor om mij heen wel veel positieve verhalen.
