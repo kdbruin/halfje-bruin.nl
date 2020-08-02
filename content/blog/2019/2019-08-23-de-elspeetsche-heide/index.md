@@ -2,11 +2,12 @@
 title: "De Elspeetsche Heide"
 date: "2019-08-23"
 author: "Kees de Bruin"
-description: ""
+description: "Op zoek naar bloeiende heide"
 categories:
     - "wandelen"
 tags:
     - "elspeetsche heide"
+    - "vierhouten"
     - "heide"
 images:
 -   src: "img/20190823-elspeetsche-heide-0035-1.jpg"
