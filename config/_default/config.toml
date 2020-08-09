@@ -15,6 +15,11 @@ titleCaseStyle          = "Chicago"
 [outputs]
   home                  = ["html", "json"]
 
+[markup]
+    [markup.highlight]
+        style           = "autumn"
+        tabWidth        = 4
+
 [permalinks]
   blog                  = "/blog/:year/:month/:title/"
 
