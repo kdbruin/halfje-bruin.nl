@@ -22,13 +22,13 @@
     <div class="stats">
         <ul class="series-navigation">
             {{- if ($.Scratch.Get "prev_link") -}}
-            <li>
-                <a href="{{ $.Scratch.Get "prev_link" }}" class="left"><span>{{ $.Scratch.Get "prev_title" }}</span></a>
+            <li class="left">
+                <a href="{{ $.Scratch.Get "prev_link" }}"><span>{{ $.Scratch.Get "prev_title" }}</span></a>
             </li>
             {{- end -}}
             {{- if ($.Scratch.Get "next_link") -}}
-            <li>
-                <a href="{{ $.Scratch.Get "next_link" }}" class="right"><span>{{ $.Scratch.Get "next_title" }}</span></a>
+            <li class="right">
+                <a href="{{ $.Scratch.Get "next_link" }}"><span>{{ $.Scratch.Get "next_title" }}</span></a>
             </li>
             {{- end -}}
         </ul>

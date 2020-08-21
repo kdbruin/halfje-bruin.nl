@@ -125,13 +125,23 @@ ul.series-navigation {
     max-width: 100%;
 
     li {
-        width: 40%;
+        width: 45%;
 
-        a.right {
-            text-align: right;
+        &.left:only-child {
+            margin-right: auto;
         }
 
-        a.left, a.right {
+        &.right:only-child {
+            margin-left: auto;
+        }
+
+        &.right {
+            a {
+                text-align: right;
+            }
+        }
+
+        a {
             border-bottom: none;
         }
     }
