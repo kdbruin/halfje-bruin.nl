@@ -120,7 +120,17 @@ div.gallery {
 }
 
 ul.series-navigation {
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+
     li {
+        width: 40%;
+
+        a.right {
+            text-align: right;
+        }
+
         a.left, a.right {
             border-bottom: none;
         }
