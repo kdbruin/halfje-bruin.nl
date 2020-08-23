@@ -15,7 +15,6 @@ tags:
     - "zwolle"
 images:
 - src: "img/20200822-wezepsche-heide-0004-1.jpg"
-draft: true
 ---
 
 Vandaag staat de [NS Wandeling Wezepsche Heide](https://www.ns.nl/dagje-uit/wandelen/wezepsche-heide.html) op het programma. Ik heb met Geerte op station Wezep afgesproken en rond half 10 gaan we op pad. De zon schijnt lekker en er staat een flinke bries dus ideaal wandelweer.
