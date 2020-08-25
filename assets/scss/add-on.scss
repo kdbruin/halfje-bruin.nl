@@ -107,6 +107,16 @@ div.gallery {
    }
 }
 
+.pagination {
+    a.left:only-child {
+        margin-right: auto;
+    }
+
+    a.right:only-child {
+        margin-left: auto;
+    }
+}
+
 #blog-series, #categories {
     ul {
         li {
