@@ -2,8 +2,10 @@
   <header>
     <h1>{{ i18n .Data.Plural }}</h1>
   </header>
+  {{ $firstSeries := true }}
   {{ range .Data.Terms.Alphabetical }}
-    <h3><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h3>
+    <details{{ if $firstSeries }} open{{ end }}>
+    <summary class="series">{{ .Page.Title }}</summary>
     <ul class="posts">
       {{ range .Pages.ByDate }}
       <li>
@@ -11,6 +13,8 @@
       </li>
       {{ end }}
     </ul>
+    </details>
+    {{ $firstSeries = false }}
   {{ end }}
   {{ $.Scratch.Set "showSeries" false }}
 {{ end }}
