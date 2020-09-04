@@ -1,7 +1,7 @@
 {{- if isset .Params "series" -}}
-{{- $name := index .Params.series 0 -}}
-{{- if gt (len $name) 0 -}}
-{{- $url := print .Site.BaseURL "series/" ($name | urlize | lower) -}}
-<p class="series">{{ i18n "part_of_series" (dict "url" $url "name" $name) | safeHTML }}</p>
-{{- end -}}
+    {{- $name := index .Params.series 0 -}}
+    {{- if gt (len $name) 0 -}}
+        {{- $url := print .Site.BaseURL "series/" ($name | urlize | lower) -}}
+        <p class="series">{{ i18n "part_of_series" (dict "url" $url "name" $name) | safeHTML }}</p>
+    {{- end -}}
 {{- end -}}
