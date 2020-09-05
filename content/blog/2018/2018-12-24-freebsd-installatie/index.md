@@ -1,13 +1,13 @@
 ---
 title: "FreeBSD - Installatie"
-date: "2018-12-24"
+date: "2018-12-24 13:00:00"
 author: "Kees de Bruin"
 description: ""
 featured: ""
 categories:
-    - ""
+    - "sysadmin"
 tags:
-    - ""
+    - "freebsd"
 ---
 
 De installatie van een nieuw FreeBSD systeem is erg eenvoudig en staat duidelijk beschreven in het [FreeBSD handboek](https://www.freebsd.org/doc/handbook/). In het kort komt het erop neer dat je een specifiek image op een USB stick zet, de betreffende machine opstart en dan voor installatie kiest.

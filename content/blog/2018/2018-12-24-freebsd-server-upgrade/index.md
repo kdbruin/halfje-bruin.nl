@@ -1,13 +1,13 @@
 ---
 title: "FreeBSD server upgrade"
-date: "2018-12-24"
+date: "2018-12-24 12:00:00"
 author: "Kees de Bruin"
 description: ""
 featured: ""
 categories:
-    - ""
+    - "sysadmin"
 tags:
-    - ""
+    - "freebsd"
 ---
 
 Het is alweer enige tijd geleden dat ik qua hardware iets heb aangepast in m'n thuisserver en met de Black Friday sales heb ik voor een leuke prijs een nieuwe 500GB SSD op de kop kunnen tikken. De hoogste tijd dus om de huidige SSD te vervangen met deze nieuwe SSD.

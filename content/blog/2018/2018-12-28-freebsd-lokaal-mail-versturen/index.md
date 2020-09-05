@@ -5,9 +5,11 @@ author: "Kees de Bruin"
 description: ""
 featured: ""
 categories:
-    - ""
+    - "sysadmin"
 tags:
-    - ""
+    - "freebsd"
+    - "postfix"
+    - "mail server"
 ---
 
 Diverse processen die draaien op de server kunnen via e-mail status berichten en logs versturen. Deze blijven echter op het systeem staan zodat het lastig is om deze berichten te lezen. Door gebruik te maken van `mail/postfix` wordt het mogelijk om deze e-mails via Gmail door te sturen.
@@ -16,116 +18,144 @@ Diverse processen die draaien op de server kunnen via e-mail status berichten en
 
 We starten met het bouwen van het installatie package via `poudriere` door dit aan de lijst van packages toe te voegen, de instellingen aan te passen en dan alles te bouwen. Bij de opties moet `SASL` aangezet zijn, voor de andere opties kunnen de defaults gebruikt worden.
 
-\# echo mail/postfix >> /usr/local/etc/poudriere.d/12amd64.pkglist  
-\# poudriere ports -u  
-\# poudriere options -j 12amd64 -c mail/postfix  
-\# poudriere bulk -j 12amd64 -f /usr/local/etc/poudriere.d/12amd64.pkglist
+```shell
+# echo mail/postfix >> /usr/local/etc/poudriere.d/12amd64.pkglist  
+# poudriere ports -u  
+# poudriere options -j 12amd64 -c mail/postfix  
+# poudriere bulk -j 12amd64 -f /usr/local/etc/poudriere.d/12amd64.pkglist
+```
 
 Als het installatie package gebouwd is kan het geïnstalleerd worden.
 
-\# pkg install mail/postfix
+```shell
+# pkg install mail/postfix
+```
 
 Bevestig de vraag of `postfix` geactiveerd moet worden met een `y`. Dit zorgt ervoor dat we in plaats van `sendmail` nu `postfix` gaan gebruiken. Om `sendmail` helemaal uit te schakelen zijn nog een aantal acties nodig. Deze acties worden beschreven bij de installatie van het `postfix` package.
 
 In het bestand `/etc/rc.conf` zorgen we ervoor dat `sendmail` niet meer wordt opgestart en dat we in plaats hiervan `postfix` opstarten.
 
-\# - disable sendmail  
-sendmail\_enable="NONE"  
-  
-\# - enable postfix  
-postfix\_enable="YES"  
+```cfg
+# - disable sendmail  
+sendmail_enable="NONE"  
+```
+
+```cfg
+# - enable postfix  
+postfix_enable="YES"  
+```
 
 Voeg onderstaande regels toe aan het bestand `/etc/periodic.conf` om deze `sendmail` specifieke zaken uit te zetten.
 
-\# disable sendmail tasks  
-daily\_clean\_hoststat\_enable="NO"  
-daily\_status\_mail\_rejects\_enable="NO"  
-daily\_status\_include\_submit\_mailq="NO"  
-daily\_submit\_queuerun="NO"  
+```cfg
+# disable sendmail tasks  
+daily_clean_hoststat_enable="NO"  
+daily_status_mail_rejects_enable="NO"  
+daily_status_include_submit_mailq="NO"  
+daily_submit_queuerun="NO"  
+```
 
 ## Gmail authenticatie
 
 Om mail door te kunnen sturen naar Gmail is het nodig om de juiste account gegevens vast te leggen. Dit doen we in het bestand `/usr/local/etc/postfix/sasl_passwd`.
 
-\[smtp.gmail.com\]:587    username@gmail.com:password
+```cfg
+[smtp.gmail.com]:587    username@gmail.com:password
+```
 
 Vul hierbij het juiste e-mail adres en Gmail wachtwoord in. Verder moeten we ervoor zorgen dat alleen `root` het bestand kan lezen.
 
-chmod 600 /usr/local/etc/postfix/sasl\_passwd  
+```shell
+chmod 600 /usr/local/etc/postfix/sasl_passwd  
+```
 
 ## Postfix configuratie
 
 De configuratie van `postfix` is redelijk simpel. Vervang de inhoud van `/usr/local/etc/postfix/main.cf` met de volgende regels.
 
-\# General options  
-queue\_directory = /var/spool/postfix  
-command\_directory = /usr/local/sbin  
-daemon\_directory = /usr/local/libexec/postfix  
-data\_directory = /var/db/postfix  
-mail\_owner = postfix  
-unknown\_local\_recipient\_reject\_code = 550  
-debug\_peer\_level = 2  
+```cfg
+# General options  
+queue_directory = /var/spool/postfix  
+command_directory = /usr/local/sbin  
+daemon_directory = /usr/local/libexec/postfix  
+data_directory = /var/db/postfix  
+mail_owner = postfix  
+unknown_local_recipient_reject_code = 550  
+debug_peer_level = 2  
   
-\# Alias maps  
-alias\_maps = hash:/etc/aliases  
-virtual\_alias\_maps = hash:/usr/local/etc/postfix/virtual  
+# Alias maps  
+alias_maps = hash:/etc/aliases  
+virtual_alias_maps = hash:/usr/local/etc/postfix/virtual  
   
-\# Address rewriting  
-recipient\_canonical\_maps = hash:/usr/local/etc/postfix/canonical  
+# Address rewriting  
+recipient_canonical_maps = hash:/usr/local/etc/postfix/canonical  
   
-\# My hostname, domain, origin, networks  
+# My hostname, domain, origin, networks  
 myhostname = filevault.home.lan  
 mydomain = home.lan  
 myorigin = home.lan  
-inet\_interfaces = 172.16.123.11  
-inet\_protocols = ipv4  
+inet_interfaces = 172.16.123.11  
+inet_protocols = ipv4  
 mynetworks = 127.0.0.0/8, 172.16.123.0/24  
   
-\# SASL options  
-smtp\_sasl\_auth\_enable = yes  
-smtp\_sasl\_password\_maps = hash:/usr/local/etc/postfix/sasl\_passwd  
-smtp\_sasl\_security\_options = noanonymous  
+# SASL options  
+smtp_sasl_auth_enable = yes  
+smtp_sasl_password_maps = hash:/usr/local/etc/postfix/sasl_passwd  
+smtp_sasl_security_options = noanonymous  
   
-\# TLS options  
-smtp\_use\_tls = yes  
-smtp\_tls\_security\_level = encrypt  
-tls\_random\_source = dev:/dev/urandom  
+# TLS options  
+smtp_use_tls = yes  
+smtp_tls_security_level = encrypt  
+tls_random_source = dev:/dev/urandom  
   
-\# Relay host  
-relayhost = \[smtp.gmail.com\]:587  
+# Relay host  
+relayhost = [smtp.gmail.com]:587  
   
-\# Disable compatibility mode  
-compatibility\_level = 2  
+# Disable compatibility mode  
+compatibility_level = 2  
+```
 
 Belangrijk hierbij is dat de gegevens van het lokale netwerk correct zijn zoals host naam en IP adres van de server, lokale domein naam en op welk IP netwerk de server zit. De `SASL`, `TLS` en `relayhost` configuratie zijn nodig voor het doorsturen van mail naar Gmail.
 
 De `virtual_alias_maps` zorgt ervoor dat alle gebruikers herschreven worden naar mijn Gmail e-mail adres. Zet hiervoor de volgende regel in het `/usr/local/etc/postfix/virtual` bestand.
 
-.\*    username@gmail.com
+```cfg
+.*    username@gmail.com
+```
 
 In het bestand `/etc/aliases` moet alleen de alias voor `root` aangepast worden.
 
+```cfg
 root: username@gmail.com
+```
 
 Run nu het commando `newaliases` om de alias database aan te maken.
 
-\# newaliases
+```shell
+# newaliases
+```
 
 Het bestand `/usr/local/etc/postfix/canonical` wordt gebruikt om de lokaal gebruikte domein namen om te zetten.
 
+```cfg
 @poudriere.home.lan    username@gmail.com  
 @git.home.lan          username@gmail.com  
 @home.lan              username@gmail.com
+```
 
 De databases voor de verschillende configuratie bestanden moeten nu nog aangemaakt worden. Voor de aliases is dit al gedaan via `newaliases`, de overige moeten gemaakt worden met behulp van `postmap`.
 
-\# postmap /usr/local/etc/postfix/sasl\_passwd  
-\# postmap /usr/local/etc/postfix/canonical  
-\# postmap /usr/local/etc/postfix/virtual
+```shell
+# postmap /usr/local/etc/postfix/sasl_passwd  
+# postmap /usr/local/etc/postfix/canonical  
+# postmap /usr/local/etc/postfix/virtual
+```
 
 We kunnen nu `postfix` opstarten.
 
-\# service postfix start
+```shell
+# service postfix start
+```
 
 ## Veiligheidniveau bij Gmail aanpassen
 
@@ -135,7 +165,9 @@ Normaal gesproken kunnen we geen mail via Gmail doorsturen. Hiervoor moet de ins
 
 Het versturen van een test e-mail is erg eenvoudig.
 
-\# echo "Test" | mail -s "Test" test@domain.com
+```shell
+# echo "Test" | mail -s "Test" test@domain.com
+```
 
 In de verzonden items bij Gmail moet je nu dit bericht zien. Onafhankelijk vanaf welk gebruikersaccount dit is verstuurd, de afzender moet gelijk zijn aan het e-mail adres zoals ingevuld in `/usr/local/etc/postfix/virtual`.
 
