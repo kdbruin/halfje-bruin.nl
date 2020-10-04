@@ -18,11 +18,11 @@ titleCaseStyle          = "Chicago"
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true
+      unsafe            = true
 
   [markup.highlight]
-    style           = "autumn"
-    tabWidth        = 4
+    style               = "autumn"
+    tabWidth            = 4
 
 [permalinks]
   blog                  = "/blog/:year/:month/:title/"
