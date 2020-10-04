@@ -16,9 +16,13 @@ titleCaseStyle          = "Chicago"
   home                  = ["html", "json"]
 
 [markup]
-    [markup.highlight]
-        style           = "autumn"
-        tabWidth        = 4
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+  [markup.highlight]
+    style           = "autumn"
+    tabWidth        = 4
 
 [permalinks]
   blog                  = "/blog/:year/:month/:title/"
