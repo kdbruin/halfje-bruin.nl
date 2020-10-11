@@ -97,8 +97,11 @@ titleCaseStyle          = "Chicago"
       siteKey           = ""
       encryptedKey      = ""
 
-  [oarams.postmeta]
+  [params.postmeta]
     shareMenu           = false
+
+  [params.komoot]
+    siteUrl             = "https://www.komoot.nl"
 
 [menu]
 

@@ -1,0 +1,40 @@
+<!-- temporaries -->
+{{- $.Scratch.Set "queries" slice -}}
+<!-- get defaults and parameter values -->
+{{- $.Scratch.Set "k_siteUrl" (default (default "https://www.komoot.nl" $.Page.Site.Params.komoot.siteUrl) (.Get "siteUrl")) -}}
+{{- $.Scratch.Set "k_id" (default false (.Get "id")) -}}
+{{- $.Scratch.Set "k_type" (default "tour" (.Get "type")) -}}
+{{- if eq ($.Scratch.Get "k_type") "tour" -}}
+  {{- $.Scratch.Set "k_profile" (default false (.Get "profile")) -}}
+  {{- $.Scratch.Set "k_gallery" (default false (.Get "gallery")) -}}
+  {{- $.Scratch.Set "k_width" (default "100%" (.Get "width")) -}}
+  {{- $.Scratch.Set "k_height" (default "580" (.Get "height")) -}}
+  {{- if $.Scratch.Get "k_profile" -}}
+    {{- $.Scratch.Add "queries" (querify "profile" 1) -}}
+    {{- $.Scratch.Set "k_height" (default "680" (.Get "height")) -}}
+  {{- end -}}
+  {{- if $.Scratch.Get "k_gallery" -}}
+    {{- $.Scratch.Add "queries" (querify "gallery" 1) -}}
+  {{- end -}}
+{{- else if eq ($.Scratch.Get "k_type") "highlight" -}}
+  {{- $.Scratch.Set "k_gallery" (default false (.Get "gallery")) -}}
+  {{- $.Scratch.Set "k_width" (default "100%" (.Get "width")) -}}
+  {{- $.Scratch.Set "k_height" (default "580" (.Get "height")) -}}
+  {{- if $.Scratch.Get "k_gallery" -}}
+    {{- $.Scratch.Add "queries" (querify "gallery" 1) -}}
+  {{- end -}}
+{{- else if eq ($.Scratch.Get "k_type") "collection" -}}
+  {{- $.Scratch.Set "k_width" (default "100%" (.Get "width")) -}}
+  {{- $.Scratch.Set "k_height" (default "580" (.Get "height")) -}}
+{{- else if eq ($.Scratch.Get "k_type") "user" -}}
+  {{- $.Scratch.Set "k_stats" (default false (.Get "stats")) -}}
+  {{- $.Scratch.Set "k_width" (default "100%" (.Get "width")) -}}
+  {{- $.Scratch.Set "k_height" (default "580" (.Get "height")) -}}
+  {{- if $.Scratch.Get "k_stats" -}}
+    {{- $.Scratch.Add "queries" (querify "stats" 1) -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="embed-komoot">
+  <iframe src="{{- $.Scratch.Get `k_siteUrl` -}}/{{- $.Scratch.Get `k_type` -}}/{{- $.Scratch.Get `k_id` -}}/embed?{{ delimit ($.Scratch.Get `queries`) `&` | safeURL }}" width="{{ $.Scratch.Get `k_width` }}" height="{{ $.Scratch.Get `k_height` }}" frameborder="0" scrolling="no"></iframe>
+</div>
