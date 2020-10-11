@@ -29,4 +29,6 @@ Op een bankje langs het pad neem ik een pauze en wordt hierbij getrakteerd op ee
 
 Omdat het volgende deel van de wandeling is afgesloten moet ik een stukje omlopen. Via het oude klooster en sculptuurpark kom ik weer op de route terecht. Bij een mooi bankje is het tijd voor de lunch. Onder het spoorviaduct door en dan nog een klein stukje tot ik weer terug ben bij het hotel.
 
+{{< komoot id="263466352" >}}
+
 {{< folder-gallery src="img" >}}

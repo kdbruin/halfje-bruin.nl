@@ -29,4 +29,6 @@ Via een paar fiets/wandelpaden komen we uiteindelijk bij Monnickendam waar we ru
 
 Via het dorpje Zuiderwoude lopen we weer terug naar Broek. We passeren hierbij mooie oude huisjes waaronder het oude Notarishuis in Broek. Terug bij de kerk nemen hier we hier nog een versnapering en wordt er nog wat nagepraat over de wandeling. Hier nemen we afscheid van een aantal wandelaars en lopen dan naar de parkeerplaats waar ik afscheid neem van Caroline en Geerte en stap dan in de auto voor de rit naar huis met weer een mooie wandeling achter de rug.
 
+{{< komoot id="259520786" >}}
+
 {{< folder-gallery src="img" >}}

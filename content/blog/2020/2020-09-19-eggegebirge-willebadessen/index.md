@@ -30,4 +30,6 @@ Het pad gaat verder en na het missen van de juiste afslag steek ik even verder d
 
 Vanaf hier loopt het pad verder omlaag en een aantal kilometers verder bij een volgende hut is het tijd om de lunch te nuttigen. Na deze pauze loopt het pad verder en zie je ook wat meer loofbomen tussen de dennen staan. En die zijn toch mooi aan het verkleuren. Bij het viaduct waarover het spoor loopt, gaat het weer omhoog en met nog een mooi uitzichtpunt over het dorp ben ik na zo'n 17 kilometer weer terug bij de parkeerplaats.
 
+{{< komoot id="261258136" >}}
+
 {{< folder-gallery src="img" >}}

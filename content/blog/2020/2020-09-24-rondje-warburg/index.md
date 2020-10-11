@@ -24,4 +24,6 @@ Na een klein stukje langs de weg gaat de wandeling een klein riviertje tot ik ui
 
 Vanaf het kerkhof loop ik verder naar het centrum en het marktplein. Hier zoek ik een mooi plekje in het zonnetje om de lunch naar binnen te werken. Een paar lekkere broodjes vers van de bakker gaan er wel in. Na dit alles loop ik rustig weer terug naar de auto. Ondanks het voornemen om niet te veel te doen staat de teller uiteindelijk toch op ruim 12 kilometer.
 
+{{< komoot id="264423729" >}}
+
 {{< folder-gallery src="img" >}}

@@ -29,4 +29,6 @@ Het pad loopt verder langs de kam van de berg/heuvel met een mooi uitzicht op Al
 
 De volgende stop in de planning is een lokale bron maar ik heb blijkbaar toch niet het juiste pad genomen want de bron kom ik niet tegen, wel een flinke omweg omdat het eigenlijke pad is afgesloten. Het laatste stuk gaat eerst weer door Altenbeken maar loopt dan weer omhoog met als bonus een mooi uitzicht over het stadje. In het zonnetje smaakt de lunch extra lekker en na een pauze loop ik het laatste stukje weer terug naar de parkeerplaats. Nog een laatste blik op een van de viaducten en dan is het rondje weer gelopen.
 
+{{< komoot id="263992040" >}}
+
 {{< folder-gallery src="img" >}}

@@ -30,4 +30,6 @@ Bij de volgende hut stop ik voor een pauze en maak hier een praatje met een dame
 
 Eenmaal weer op het pad loop ik weer terug richting Willebadessen en zie hier een aantal herten rondlopen. Deze schieten snel weg als ze mij in de gaten krijgen. Bij het herdenkingskruis nog even een laatste pauze en dan verder naar het beginpunt van de wandeling.
 
+{{< komoot id="262086075" >}}
+
 {{< folder-gallery src="img" >}}

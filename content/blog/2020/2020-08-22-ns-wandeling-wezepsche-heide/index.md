@@ -37,4 +37,6 @@ We lopen door Katerveer en langs de sluizen van de Willemsvaart. Via een mooie b
 
 Een sanitaire stop en dan richting de trein. Hier nemen we afscheid van elkaar en stapt ieder in de gereedstaande trein weer op weg naar huis. Net als de trein Zwolle heeft verlaten begint het buiten weer heel hard te regenen. Dat buitje hebben we maar mooi gemist!
 
+{{< komoot id="244575159" >}}
+
 {{< folder-gallery src="img" >}}

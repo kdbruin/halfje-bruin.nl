@@ -34,4 +34,6 @@ Bij Brunsberghütte is het tijd om even te genieten van een mooi uitzicht over h
 
 Nog weer een klein stukje asfalt en dan begint het laatste stuk door het bos. Behalve het gekwetter van de vogels is het erg rustig en sta ik na ruim 11 kilometer weer bij de auto. Ik heb de waterdraak dan wel niet gezien maar het is zeker een wandeling die ik kan aanraden als je een keer in de buurt bent.
 
+{{< komoot id="262932997" >}}
+
 {{< folder-gallery src="img" >}}

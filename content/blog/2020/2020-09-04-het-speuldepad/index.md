@@ -48,4 +48,6 @@ Hier maar eerst even lunchen om daarna de laatste meters naar de parkeerplaats t
 
 {{< img src="img/20200904-speuldepad-0091-1.jpg" >}}
 
+{{< komoot id="251300158" >}}
+
 {{< folder-gallery src="img" >}}
