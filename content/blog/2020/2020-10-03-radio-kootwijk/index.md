@@ -38,4 +38,6 @@ Na wat geploeter door het mulle zand stoppen we bij een mooie heuvel waar we een
 
 Het begint nu wat meer te regenen maar gelukkig lopen we het laatste stuk voornamelijk onder de bomen maar ook daar komt af en toe behoorlijk wat water uit vallen. Tegen 4 uur zijn we weer terug bij de parkeerplaats en nemen we afscheid van de groep en zetten de spullen weer in de auto. Als we weg willen rijden begint het ineens behoorlijk te plenzen dus dat was een perfecte timing. In de regen rijden we weer terug naar Amersfoort en hebben we weer een geslaagde wandeling achter de rug.
 
+{{< komoot id="268099695" >}}
+
 {{< folder-gallery src="img" >}}
