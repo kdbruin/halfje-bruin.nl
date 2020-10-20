@@ -56,7 +56,7 @@ titleCaseStyle          = "Chicago"
   [params.header]
     navbarTitle         = "Halfje-Bruin"
     dynamicTitles       = true
-    searchMenu          = true
+    searchMenu          = false
     shareMenu           = true
     languageMenu        = false
 
