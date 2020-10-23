@@ -130,7 +130,7 @@ titleCaseStyle          = "Chicago"
     name              = "Categories"
     identifier        = "categories"
     url               = "/categories/"
-    pre               = "<i class='fas fa-sitemap'></i>"
+    pre               = "<i class='fas fa-folder'></i>"
     weight            = 5
 
   [[menu.main]]
@@ -177,7 +177,14 @@ titleCaseStyle          = "Chicago"
       name              = "Categorieën"
       identifier        = "categories"
       url               = "/categories/"
-      pre               = "<i class='fas fa-sitemap'></i>"
+      pre               = "<i class='fas fa-folder'></i>"
+      weight            = 10
+
+    [[Languages.nl.menu.main]]
+      name              = "Tags"
+      identifier        = "tags"
+      url               = "/tags/"
+      pre               = "<i class='fas fa-tags'></i>"
       weight            = 10
 
     [[Languages.nl.menu.main]]
