@@ -1,6 +1,6 @@
 ---
 author: "Kees de Bruin"
-title: "Huinerpad"
+title: "Het Huinerpad"
 date: "2020-11-08"
 description: "Wandelen in het buitengebied van Putten"
 categories:
