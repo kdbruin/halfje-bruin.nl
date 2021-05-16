@@ -28,6 +28,6 @@ Voor Zwartebroek buigt de route af en via de Vrouwenweg weer richting Driedorp. 
 
 Na bijna vier en een half uur lopen en iets meer als twintig kilometer ben ik weer terug bij de auto. Bij de picknick tafel eerst nog even lunchen en hierbij heb ik een prettig gesprek met een paar fietsers die ook van een broodje aan het genieten zijn. Enigszins uitgerust stap ik weer in de auto en rij weer terug naar Amersfoort.
 
-{{< komoot id="Í255883868" >}}
+{{< komoot id="255883868" >}}
 
 {{< folder-gallery src="img" >}}
