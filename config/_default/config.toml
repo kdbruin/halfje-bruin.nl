@@ -24,6 +24,11 @@ titleCaseStyle          = "Chicago"
     style               = "autumn"
     tabWidth            = 4
 
+[module]
+   [module.hugoVersion]
+   extended              = true
+   min                   = "0.62.0"
+
 [permalinks]
   blog                  = "/blog/:year/:month/:title/"
 
