@@ -10,7 +10,7 @@ categories:
 tags:
     - "maarn"
     - "den treek"
-    - "heuvelrug"
+    - "utrechtse heuvelrug"
     - "heuvelrug wandelvierdaagse"
 images:
 - src: "img/20210402-den-treek-0020-1.jpg"
